@@ -27,7 +27,7 @@ public class Monthly_Emp_Wage {
         int wage = (workingHours * Wage_Per_Hr);
         System.out.println("Employee Daily Wage is: " + wage);
         
-        int Total_Wage = (workingHours * Wage_Per_Hr) * 20;			//20 working days per month
+        int Total_Wage = (workingHours * Wage_Per_Hr) * 20;
         System.out.println("Employee monthly total wage is: " + Total_Wage);
 
 	}

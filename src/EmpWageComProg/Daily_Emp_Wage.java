@@ -3,7 +3,6 @@ package EmpWageComProg;
 public class Daily_Emp_Wage {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Employee Wage programme.");
 		int FULL_TIME = 1;
         int Wage_Per_Hr = 20;
         int empType = (int) (Math.random() * 100) % 2;
